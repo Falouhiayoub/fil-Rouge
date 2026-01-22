@@ -2,8 +2,8 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
     isAuthenticated: false,
-    user: null, // { email, role }
-    role: null, // 'admin' | 'user'
+    user: null, 
+    role: null, 
 };
 
 // Check localStorage for persisted session (optional enhancement for later, keeping simple for now)
