@@ -14,5 +14,8 @@ export const updateProduct = (id, product) => api.put(`/products/${id}`, product
 export const deleteProduct = (id) => api.delete(`/products/${id}`)
 
 
+export const getOrders = () => api.get('/orders');
+export const updateOrder = (id, order) => api.put(`/orders/${id}`, order);
+export const createOrder = (order) => api.post('/orders', order);
 
 export default api
