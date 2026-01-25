@@ -62,6 +62,6 @@ export const {addToCart, removeFromCart, updateQuantity, clearCart} = cartSlice.
 
 // get the total items count
 export const selectCartItemsCount = (state) =>
-    state.cart.items.reduc((total, item) => total + item.quantity, 0)
+    state.cart.items.reduce((total, item) => total + item.quantity, 0)
 
-export default cartSlice.reducer
+export default cartSlice.reducer 
