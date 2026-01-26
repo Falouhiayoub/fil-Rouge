@@ -54,7 +54,7 @@ return (
             <div className="chatbot-window">
                 <div className="chatbot-header">
                     <h3>Fashion AI Fuel</h3>
-                    <button className="cahtbot-close" onClick={() => setIsOpen(false)}>✕</button>
+                    <button className="chatbot-close" onClick={() => setIsOpen(false)}>✕</button>
                 </div>
 
                 <div className="chatbot-messages">
