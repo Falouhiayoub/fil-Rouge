@@ -9,6 +9,7 @@ import Cart from './pages/Cart'
 import Login from "./pages/Login"
 import Checkout from './pages/Checkout'
 import Admin from './pages/Admin'
+import ChatBot from "./components/common/ChatBot"
 
 const App = () => {
   const Layout = ({children}) => {
@@ -22,6 +23,7 @@ const App = () => {
           {children}
         </main>
         {!isAdminRoute && <Footer/>}
+        {!isAdminRoute && <ChatBot/>}
       </div>
     )
   }
