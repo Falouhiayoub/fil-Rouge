@@ -1,5 +1,6 @@
-import '../styles/About.css'
-import React from 'react'
+import React from 'react';
+import '../styles/About.css';
+
 const About = () => {
     return (
         <div className="about-container">
@@ -23,7 +24,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default About
+export default About;
